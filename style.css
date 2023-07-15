@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    background-color: rgb(131, 171, 206);
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1, p {
+    text-align: center;   
+}
+
+input,textarea{ 
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 13px;
+    width: 70%;
+    margin: 11px;
+    padding: 8px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    width: 10%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(98, 102, 105);
+    color: aliceblue;
+}
+
+.submitMessage{
+    color: blue;
+}
